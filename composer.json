@@ -1,0 +1,27 @@
+{
+    "name": "filsh/yii2-orientdb",
+    "description": "Wrapper for OrientDB PHP Library",
+    "keywords": ["yii", "extension"],
+    "homepage": "https://github.com/filsh/yii2-orientdb",
+    "type": "yii2-extension",
+    "license": "MIT",
+    "support": {
+        "email": "imaliy.filsh@gmail.com",
+        "source": "https://github.com/filsh/yii2-orientdb"
+    },
+    "authors": [
+        {
+            "name": "Igor Maliy",
+            "email": "imaliy.filsh@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "doctrine/orientdb-odm": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "filsh\\yii2\\orientdb\\": ""
+        }
+    }
+}
