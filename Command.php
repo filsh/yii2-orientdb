@@ -30,7 +30,7 @@ class Command extends \yii\base\Component
      * @return static this command instance
      */
     public function setSql($sql)
-    {var_dump($sql);exit;
+    {
         if ($sql !== $this->_sql) {
             $this->cancel();
             $this->_sql = $this->db->quoteSql($sql);
